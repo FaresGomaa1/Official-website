@@ -5,6 +5,7 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
 -->
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,6 +23,7 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
   <!-- Meta for theme-color on mobile -->
   <meta name="theme-color" content="#0f1724" />
 </head>
+
 <body>
   <div id="page" class="page d-flex">
     <!-- Sidebar / Navigation -->
@@ -48,7 +50,8 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
         <a class="nav-link" href="#contact"><i class="fa fa-envelope me-2" aria-hidden="true"></i>Contact</a>
         <hr>
         <div class="px-2">
-          <button id="themeToggleSidebar" class="btn w-100 btn-outline-primary" aria-pressed="false" aria-label="Toggle dark mode">
+          <button id="themeToggleSidebar" class="btn w-100 btn-outline-primary" aria-pressed="false"
+            aria-label="Toggle dark mode">
             <i class="fa-regular fa-moon me-2" aria-hidden="true"></i> Toggle Theme
           </button>
         </div>
@@ -65,7 +68,8 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
         <div class="container-fluid d-flex align-items-center justify-content-between py-2">
           <div class="d-flex align-items-center gap-2">
             <!-- Hamburger for small screens -->
-            <button id="sidebarToggle" class="btn btn-sm btn-outline-primary d-md-none" aria-controls="sidebar" aria-expanded="false" aria-label="Open navigation">
+            <button id="sidebarToggle" class="btn btn-sm btn-outline-primary d-md-none" aria-controls="sidebar"
+              aria-expanded="false" aria-label="Open navigation">
               <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
 
@@ -73,7 +77,8 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
           </div>
 
           <div class="d-flex align-items-center gap-2">
-            <button id="themeToggleHeader" class="btn btn-sm btn-outline-secondary" aria-pressed="false" title="Toggle dark mode" aria-label="Toggle dark mode">
+            <button id="themeToggleHeader" class="btn btn-sm btn-outline-secondary" aria-pressed="false"
+              title="Toggle dark mode" aria-label="Toggle dark mode">
               <i class="fa-regular fa-moon" aria-hidden="true"></i>
             </button>
 
@@ -88,33 +93,43 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
           <div class="container">
             <div class="row align-items-center gy-4">
               <div class="col-lg-4 text-center">
-                <img src="photo2.jpeg" alt="Fares Gomaa profile photo" class="profile-img rounded-circle mb-3" width="180" height="180">
+                <img src="photo2.jpeg" alt="Fares Gomaa profile photo" class="profile-img rounded-circle mb-3"
+                  width="180" height="180">
                 <div class="d-none d-lg-block">
-                  <a class="btn btn-outline-secondary btn-sm me-2" href="mailto:fares.gomaa.work@gmail.com"><i class="fa fa-envelope me-1"></i>Email</a>
-                  <a class="btn btn-outline-secondary btn-sm" href="#" aria-label="Download resume"><i class="fa fa-file-download me-1"></i>Resume</a>
+                  <a class="btn btn-outline-secondary btn-sm me-2" href="mailto:fares.gomaa.work@gmail.com"><i
+                      class="fa fa-envelope me-1"></i>Email</a>
+                  <a class="btn btn-outline-secondary btn-sm" href="#" aria-label="Download resume"><i
+                      class="fa fa-file-download me-1"></i>Resume</a>
                 </div>
               </div>
 
               <div class="col-lg-8">
                 <header>
                   <h1 id="about-heading" class="mb-2">Hello — I'm <span class="accent">Fares</span></h1>
-                  <p class="lead">CRM Developer & Power Platform enthusiast building modern web apps and business solutions with Microsoft Dynamics 365, ASP.NET, and Angular.</p>
+                  <p class="lead">CRM Developer & Power Platform enthusiast building modern web apps and business
+                    solutions with Microsoft Dynamics 365, ASP.NET, and Angular.</p>
                 </header>
 
                 <article>
                   <p>
-                    I design and implement robust CRM solutions, integrate services, and automate workflows to improve user experience and business processes. I enjoy learning new stacks, solving hard problems, and crafting clean UI/UX.
+                    I design and implement robust CRM solutions, integrate services, and automate workflows to improve
+                    user experience and business processes. I enjoy learning new stacks, solving hard problems, and
+                    crafting clean UI/UX.
                   </p>
 
                   <dl class="row">
-                    <dt class="col-sm-3">Location</dt><dd class="col-sm-9">Fayoum, Egypt</dd>
-                    <dt class="col-sm-3">Email</dt><dd class="col-sm-9"><a href="mailto:fares.gomaa.work@gmail.com">fares.gomaa.work@gmail.com</a></dd>
-                    <dt class="col-sm-3">Phone</dt><dd class="col-sm-9">+20 103 394 5260</dd>
+                    <dt class="col-sm-3">Location</dt>
+                    <dd class="col-sm-9">Fayoum, Egypt</dd>
+                    <dt class="col-sm-3">Email</dt>
+                    <dd class="col-sm-9"><a href="mailto:fares.gomaa.work@gmail.com">fares.gomaa.work@gmail.com</a></dd>
+                    <dt class="col-sm-3">Phone</dt>
+                    <dd class="col-sm-9">+20 103 394 5260</dd>
                   </dl>
                 </article>
 
                 <aside class="mt-3">
-                  <a class="btn btn-outline-success me-2" href="#projects"><i class="fa fa-eye me-1"></i> See Projects</a>
+                  <a class="btn btn-outline-success me-2" href="#projects"><i class="fa fa-eye me-1"></i> See
+                    Projects</a>
                   <a class="btn btn-outline-info" href="#contact"><i class="fa fa-comment-dots me-1"></i> Let's talk</a>
                 </aside>
               </div>
@@ -137,10 +152,13 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
                   <img src="Dashboard.png" class="card-img-top" alt="Ticketing system screenshot">
                   <div class="card-body d-flex flex-column">
                     <h3 class="h5 card-title">Ticketing System</h3>
-                    <p class="card-text text-muted small">Model-driven app built on Dynamics 365 with SLA enforcement and team routing logic.</p>
+                    <p class="card-text text-muted small">Model-driven app built on Dynamics 365 with SLA enforcement
+                      and team routing logic.</p>
                     <div class="mt-auto d-flex gap-2">
-                      <a class="btn btn-sm btn-outline-primary" href="#" aria-label="View project details"><i class="fa fa-link me-1"></i> Live</a>
-                      <a class="btn btn-sm btn-outline-secondary" href="#" aria-label="View source"><i class="fa fa-code me-1"></i> Source</a>
+                      <a class="btn btn-sm btn-outline-primary" href="#" aria-label="View project details"><i
+                          class="fa fa-link me-1"></i> Live</a>
+                      <a class="btn btn-sm btn-outline-secondary" href="#" aria-label="View source"><i
+                          class="fa fa-code me-1"></i> Source</a>
                     </div>
                   </div>
                 </div>
@@ -151,7 +169,8 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
                   <img src="LMS-banner-image.png" class="card-img-top" alt="LMS screenshot">
                   <div class="card-body d-flex flex-column">
                     <h3 class="h5 card-title">LMS Platform</h3>
-                    <p class="card-text text-muted small">Online course marketplace built with ASP.NET Core, Angular and SQL Server.</p>
+                    <p class="card-text text-muted small">Online course marketplace built with ASP.NET Core, Angular and
+                      SQL Server.</p>
                     <div class="mt-auto d-flex gap-2">
                       <a class="btn btn-sm btn-outline-primary" href="#"><i class="fa fa-link me-1"></i> Demo</a>
                       <a class="btn btn-sm btn-outline-secondary" href="#"><i class="fa fa-code me-1"></i> Repo</a>
@@ -165,7 +184,8 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
                   <img src="power-platform_overview_2022.jpg" class="card-img-top" alt="Power Platform screenshot">
                   <div class="card-body d-flex flex-column">
                     <h3 class="h5 card-title">Power Platform Automations</h3>
-                    <p class="card-text text-muted small">Power Automate flows and Power Pages solutions for data collection and integration.</p>
+                    <p class="card-text text-muted small">Power Automate flows and Power Pages solutions for data
+                      collection and integration.</p>
                     <div class="mt-auto d-flex gap-2">
                       <a class="btn btn-sm btn-outline-primary" href="#"><i class="fa fa-link me-1"></i> Case Study</a>
                       <a class="btn btn-sm btn-outline-secondary" href="#"><i class="fa fa-code me-1"></i> Repo</a>
@@ -193,7 +213,8 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
                   <div class="col-12">
                     <div class="skill-item p-3 rounded-3 bg-white shadow-sm">
                       <div class="d-flex justify-content-between align-items-center mb-2">
-                        <div><i class="fa-brands fa-microsoft fa-lg me-2" aria-hidden="true"></i>Dynamics 365 & Power Platform</div>
+                        <div><i class="fa-brands fa-microsoft fa-lg me-2" aria-hidden="true"></i>Dynamics 365 & Power
+                          Platform</div>
                         <div class="small text-muted">90%</div>
                       </div>
                       <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
@@ -266,25 +287,29 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
                 <form id="contactForm" class="needs-validation" novalidate>
                   <div class="mb-3">
                     <label for="inputName" class="form-label">Name</label>
-                    <input type="text" id="inputName" class="form-control" name="name" required aria-required="true" placeholder="Your name">
+                    <input type="text" id="inputName" class="form-control" name="name" required aria-required="true"
+                      placeholder="Your name">
                     <div class="invalid-feedback">Please enter your name.</div>
                   </div>
 
                   <div class="mb-3">
                     <label for="inputEmail" class="form-label">Email</label>
-                    <input type="email" id="inputEmail" class="form-control" name="email" required aria-required="true" placeholder="you@example.com">
+                    <input type="email" id="inputEmail" class="form-control" name="email" required aria-required="true"
+                      placeholder="you@example.com">
                     <div class="invalid-feedback">Please enter a valid email.</div>
                   </div>
 
                   <div class="mb-3">
                     <label for="inputMessage" class="form-label">Message</label>
-                    <textarea id="inputMessage" class="form-control" name="message" rows="6" required aria-required="true" placeholder="How can I help?"></textarea>
+                    <textarea id="inputMessage" class="form-control" name="message" rows="6" required
+                      aria-required="true" placeholder="How can I help?"></textarea>
                     <div class="invalid-feedback">Please leave a message.</div>
                   </div>
 
                   <div class="d-flex gap-2">
-                    <button type="submit" class="btn btn-primary">Send message</button>
-                    <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                    <button id="btnSend" type="submit" class="btn btn-primary">Send message</button>
+                    <button id="btnReset" type="reset" class="btn btn-outline-secondary">Reset</button>
+
                   </div>
 
                   <div id="formAlert" class="mt-3 visually-hidden" role="status" aria-live="polite"></div>
@@ -294,7 +319,8 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
               <div class="col-lg-6">
                 <div class="p-3 bg-white rounded-3 shadow-sm">
                   <h3 class="h6">Other ways to reach me</h3>
-                  <p class="mb-1"><i class="fa fa-envelope me-2" aria-hidden="true"></i><a href="mailto:fares.gomaa.work@gmail.com">fares.gomaa.work@gmail.com</a></p>
+                  <p class="mb-1"><i class="fa fa-envelope me-2" aria-hidden="true"></i><a
+                      href="mailto:fares.gomaa.work@gmail.com">fares.gomaa.work@gmail.com</a></p>
                   <p class="mb-1"><i class="fa fa-phone me-2" aria-hidden="true"></i>+20 103 394 5260</p>
                   <p class="mb-0"><i class="fa fa-map-marker-alt me-2" aria-hidden="true"></i>Fayoum, Egypt</p>
                 </div>
@@ -321,8 +347,14 @@ Connects to style.css and script.js. Sidebar is responsive and accessible.
 
   <!-- Bootstrap Bundle (includes Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("TwVDYQOiJi14IB3eB");
+    })();
+  </script>
   <!-- Custom JS -->
   <script src="script.js"></script>
 </body>
+
 </html>
