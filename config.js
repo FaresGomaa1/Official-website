@@ -54,6 +54,25 @@ window.PORTFOLIO_CONFIG = {
     { id: "github", label: "GitHub", url: "https://github.com/FaresGomaa1", icon: "fa-brands fa-github" },
     { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/in/fares-abdelsttar", icon: "fa-brands fa-linkedin-in" },
     { id: "email", label: "Email", url: "mailto:fares.gomaa.work@gmail.com", icon: "fa-solid fa-envelope" },
+    { id: "upwork", label: "Upwork", url: "https://www.upwork.com/freelancers/~0198cc1e31e9d34a50", icon: "fa-brands fa-upwork"},
+    {
+    id: "phone",
+    label: "Phone",
+    url: "tel:+201033945260",
+    icon: "fa-solid fa-phone",
+    },
+    {
+    id: "whatsapp",
+    label: "WhatsApp",
+    url: "https://wa.me/201033945260",
+    icon: "fa-brands fa-whatsapp",
+    },
+    {
+    id: "x",
+    label: "X",
+    url: "https://twitter.com/FaresGomaa1999",
+    icon: "fa-brands fa-x-twitter",
+    },
   ],
 
   /* ---------- Hero ---------- */
